@@ -21,6 +21,41 @@ header {
   text-align: center;
 }
 
+.header-group,
+.portfolio-group,
+.image-group {
+  display: flex;
+  flex-direction: row;
+}
+
+.header-group {
+  align-items: flex-end;
+}
+
+.portfolio-group {
+  align-items: flex-start;
+}
+
+.image-group {
+  align-items: center;
+}
+
+.header-item {
+  flex: 1;
+  margin: 0px;
+}
+
+.portfolio-item,
+.image-item {
+  flex: 1;
+  margin: 0px;
+  padding-left: 30px;
+}
+
+.left-align {
+  text-align: left;
+}
+
 /* Containers */
 div {
   background-color: #eae2b7;
@@ -35,6 +70,10 @@ article {
 article div {
   text-align: center;
   width: 100%;
+}
+
+article p {
+  font-size: 14px;
 }
 
 /* Paragraphs */
